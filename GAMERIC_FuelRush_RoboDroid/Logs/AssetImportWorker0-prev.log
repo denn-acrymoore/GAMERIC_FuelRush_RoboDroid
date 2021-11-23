@@ -1,0 +1,392 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 23981 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/UMN/Semester_5/IF_580_C_CL_Computer_Graphic_&_Animation/Teori/Final_Unity_Project/GAMERIC_FuelRush_RoboDroid
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63929
+Successfully changed project path to: F:/UMN/Semester_5/IF_580_C_CL_Computer_Graphic_&_Animation/Teori/Final_Unity_Project/GAMERIC_FuelRush_RoboDroid
+F:/UMN/Semester_5/IF_580_C_CL_Computer_Graphic_&_Animation/Teori/Final_Unity_Project/GAMERIC_FuelRush_RoboDroid
+Using Asset Import Pipeline V2.
+Unable to join player connection multicast group.
+Unable to join player connection alternative multicast group.
+Refreshing native plugins compatible for Editor in 32.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UMN/Semester_5/IF_580_C_CL_Computer_Graphic_&_Animation/Teori/Final_Unity_Project/GAMERIC_FuelRush_RoboDroid/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001058 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (875ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 3.066500 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.700000 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.008814 seconds 
+  Import took 0.011454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.573664 seconds.
+  path: Assets/JMO Assets
+  artifactKey: Guid(3ed0af3f8e4421d418b33a2310c3200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets using Guid(3ed0af3f8e4421d418b33a2310c3200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa804bde3369acd98a6eadee465473d0') in 0.025674 seconds 
+  Import took 0.028125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 383.002757 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/builddispatchindirect.compute
+  artifactKey: Guid(4eb1b418be7044c40bb5200496c50f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/builddispatchindirect.compute using Guid(4eb1b418be7044c40bb5200496c50f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025277 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/builddispatchindirect.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/builddispatchindirect.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.028064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute
+  artifactKey: Guid(0bb1b7e0ddcd5c44baf3ddc7456eb196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-clustered.compute using Guid(0bb1b7e0ddcd5c44baf3ddc7456eb196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001497 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild-clustered.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild-clustered.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/scrbound.compute
+  artifactKey: Guid(728dce960f8a9c44bbc3abb3b851d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/scrbound.compute using Guid(728dce960f8a9c44bbc3abb3b851d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001195 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/scrbound.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/scrbound.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/cleardispatchindirect.compute
+  artifactKey: Guid(fc1f553acb80a6446a32d33e403d0656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/cleardispatchindirect.compute using Guid(fc1f553acb80a6446a32d33e403d0656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001069 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/cleardispatchindirect.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/cleardispatchindirect.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/materialflags.compute
+  artifactKey: Guid(fb3eda953cd6e634e877fb777be2cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/materialflags.compute using Guid(fb3eda953cd6e634e877fb777be2cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001874 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/materialflags.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/materialflags.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.004501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute
+  artifactKey: Guid(0b64f79746d2daf4198eaf6eab9af259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/Deferred.compute using Guid(0b64f79746d2daf4198eaf6eab9af259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003452 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/deferred.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/deferred.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.005680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild.compute
+  artifactKey: Guid(65af3444cbf4b3747a4dead7ee00cfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild.compute using Guid(65af3444cbf4b3747a4dead7ee00cfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001448 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ClearLightLists.compute
+  artifactKey: Guid(743eb3491795b9545955695d591195a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/ClearLightLists.compute using Guid(743eb3491795b9545955695d591195a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001147 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/clearlightlists.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/clearlightlists.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-bigtile.compute
+  artifactKey: Guid(5ee1f9d6e09abe045b2f5e0b784b9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/LightLoop/lightlistbuild-bigtile.compute using Guid(5ee1f9d6e09abe045b2f5e0b784b9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001317 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild-bigtile.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/runtime/lighting/lightloop/lightlistbuild-bigtile.compute in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.003666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649997 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/package.json
+  artifactKey: Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/package.json using Guid(6f54db4299717fc4ca37866c6afa0905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007573 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.high-definition/package.json in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.high-definition/package.json in SourceAssetDB has modification time of '2020-07-13T18:51:03Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.009928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.680437 seconds.
+  path: Assets/Martian surface - rocky area/HDRPDefaultResources/DefaultSceneRoot.prefab
+  artifactKey: Guid(7a95f5b53c0ec1147a4af306fb6362e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/HDRPDefaultResources/DefaultSceneRoot.prefab using Guid(7a95f5b53c0ec1147a4af306fb6362e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6198658ccdfc943a7c268c9a9dd7abd4') in 0.033905 seconds 
+  Import took 0.037132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Martian surface - rocky area/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(e216ed6831bfca84aa79a137ac9f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(e216ed6831bfca84aa79a137ac9f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf504243bd64ed99d2e8e68cfb1ea9') in 0.008138 seconds 
+  Import took 0.011075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Martian surface - rocky area/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(28caec80ad8f19342b423c5d54c9f5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(28caec80ad8f19342b423c5d54c9f5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a8419877a61cd2c4d8ff50725f85c3') in 0.007056 seconds 
+  Import took 0.010470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Martian surface - rocky area/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(f27def270e0fb074a89a7156aa389838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(f27def270e0fb074a89a7156aa389838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f08d579755e6aaaf3f15bd17444ed2') in 0.006017 seconds 
+  Import took 0.008677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178327 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(aac14b3c575b3df4db587c1648998573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/DefaultSettingsVolumeProfile.asset using Guid(aac14b3c575b3df4db587c1648998573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9555122f143e20511860526693d71d94') in 0.006793 seconds 
+  Import took 0.010622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(ff091050d8186134ebe68d6cf84cc00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/Sky and Fog Settings Profile.asset using Guid(ff091050d8186134ebe68d6cf84cc00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548bffa4e9fef17effd096de339964b9') in 0.006600 seconds 
+  Import took 0.009036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/Post Processing Profile.asset
+  artifactKey: Guid(723e33edd78f7bb4cb085f02e00b77e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/Post Processing Profile.asset using Guid(723e33edd78f7bb4cb085f02e00b77e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381342cd17cbb419f5efce8385c47afc') in 0.007071 seconds 
+  Import took 0.010386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(be92f6f6a6611bd4eb1a0b824b6904cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_dir.png using Guid(be92f6f6a6611bd4eb1a0b824b6904cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a420546362998dc3b045c5374d642c') in 0.036014 seconds 
+  Import took 0.039017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/LightingData.asset
+  artifactKey: Guid(5a4b75cdf725b1b43a0d44077a3d5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/LightingData.asset using Guid(5a4b75cdf725b1b43a0d44077a3d5801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953a229370b415239f87e10e75e058dd') in 0.005912 seconds 
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(22a8ecd253753a04183881a601d42d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_light.exr using Guid(22a8ecd253753a04183881a601d42d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844ce255f12cae3d531cb0add5632c69') in 0.038374 seconds 
+  Import took 0.040904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b2183996fb5d34149943741f80bb8b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene/Lightmap-0_comp_shadowmask.png using Guid(b2183996fb5d34149943741f80bb8b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1ec66e6756b27a806cecf8ca0cbe5') in 0.020726 seconds 
+  Import took 0.023304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.990697 seconds.
+  path: Assets/Martian surface - rocky area/Textures/ColorMap.png
+  artifactKey: Guid(211b4764fa8665d4784a28150e284b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Textures/ColorMap.png using Guid(211b4764fa8665d4784a28150e284b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5068d4009676367f68833b232834823') in 0.043079 seconds 
+  Import took 0.046329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Martian surface - rocky area/Textures/Stone Ground 1_d.png
+  artifactKey: Guid(7acdb272d1aabc1499183baf3e45ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Textures/Stone Ground 1_d.png using Guid(7acdb272d1aabc1499183baf3e45ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57528576c540e612e8d0f5c472ff7714') in 0.019862 seconds 
+  Import took 0.022650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Martian surface - rocky area/Textures/Normal Map.png
+  artifactKey: Guid(ce27e097b85dfd84e9880598e50c4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Textures/Normal Map.png using Guid(ce27e097b85dfd84e9880598e50c4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2e7057b825dc55cd0055bc297f881f') in 0.026287 seconds 
+  Import took 0.029149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Martian surface - rocky area/Textures/Stone Ground 1.png
+  artifactKey: Guid(c87ac051d2095fa4a996f2af5b734e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Textures/Stone Ground 1.png using Guid(c87ac051d2095fa4a996f2af5b734e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4eef1b64404e6547a55960be8fdacb') in 0.018609 seconds 
+  Import took 0.021341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Martian surface - rocky area/Textures/Stone Ground 1_n.png
+  artifactKey: Guid(b5682b0c317f8c04b90aed63e91a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Textures/Stone Ground 1_n.png using Guid(b5682b0c317f8c04b90aed63e91a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73260238005fb990ca992b34d254eea5') in 0.015593 seconds 
+  Import took 0.018006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.860225 seconds.
+  path: Assets/Martian surface - rocky area/Materials/Terrain Material.mat
+  artifactKey: Guid(0cf56681e7831fc4b8be80e7d0307366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/Materials/Terrain Material.mat using Guid(0cf56681e7831fc4b8be80e7d0307366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7b73f7091b2bd906e031e8e149b609') in 0.060375 seconds 
+  Import took 0.063608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.928663 seconds.
+  path: Assets/Martian surface - rocky area/New Terrain.asset
+  artifactKey: Guid(eba58b049f23c5f42ae98ea03f46aad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/New Terrain.asset using Guid(eba58b049f23c5f42ae98ea03f46aad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e0259aeb15c2d650f0a69f2c47e384') in 0.482255 seconds 
+  Import took 0.490279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.953823 seconds.
+  path: Assets/Martian surface - rocky area/SampleScene.unity
+  artifactKey: Guid(0d681410fede8324085d694f8fd4dc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martian surface - rocky area/SampleScene.unity using Guid(0d681410fede8324085d694f8fd4dc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87afa94a6ab6b4a62357070d8c98761') in 0.017651 seconds 
+  Import took 0.020263 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -6,6 +6,7 @@ using TMPro;
 public class MainMenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject howToPlayPanel;
     [SerializeField] private GameObject creditsPanel;
     [SerializeField] private GameObject settingsPanel;
 
@@ -38,6 +39,7 @@ public class MainMenuManager : MonoBehaviour
     public void OnClickBackButton()
     {
         mainMenuPanel.SetActive(true);
+        howToPlayPanel.SetActive(false);
         creditsPanel.SetActive(false);
         settingsPanel.SetActive(false);
     }
@@ -47,9 +49,18 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene("Level01");
     }
 
+    public void OnClickHowToPlayButton()
+    {
+        mainMenuPanel.SetActive(false);
+        howToPlayPanel.SetActive(true);
+        creditsPanel.SetActive(false);
+        settingsPanel.SetActive(false);
+    }
+
     public void OnClickCreditsButton()
     {
         mainMenuPanel.SetActive(false);
+        howToPlayPanel.SetActive(false);
         creditsPanel.SetActive(true);
         settingsPanel.SetActive(false);
     }
@@ -57,6 +68,7 @@ public class MainMenuManager : MonoBehaviour
     public void OnClickSettingsButton()
     {
         mainMenuPanel.SetActive(false);
+        howToPlayPanel.SetActive(false);
         creditsPanel.SetActive(false);
         settingsPanel.SetActive(true);
     }
