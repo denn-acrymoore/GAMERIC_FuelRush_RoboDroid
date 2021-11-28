@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4176216229701232}
   - component: {fileID: 33076935860609032}
   - component: {fileID: 23960683115149664}
-  - component: {fileID: 95559486236550918}
   - component: {fileID: 65448197986742176}
   - component: {fileID: 4239500360963796561}
   m_Layer: 0
@@ -84,25 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &95559486236550918
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799557203254782}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c2b3166827abc4443a529a721db19c83, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!65 &65448197986742176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -128,3 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74320c4d17327e748b222224ddc284e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectWithinGrid: {fileID: 0}
