@@ -2702,7 +2702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- WASD or arrow keys: to move the robot, destroy nearby box, or push nearby
+  m_text: '- WASD or arrow keys to move the robot, destroy nearby box, or push nearby
     stone.
 
 
