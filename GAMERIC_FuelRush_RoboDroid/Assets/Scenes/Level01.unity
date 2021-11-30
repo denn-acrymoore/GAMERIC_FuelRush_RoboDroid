@@ -522,6 +522,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70067053}
   m_CullTransparentMesh: 1
+--- !u!1 &93222370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93222371}
+  m_Layer: 0
+  m_Name: Particle Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &93222371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93222370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &125484558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -597,6 +627,7 @@ GameObject:
   - component: {fileID: 134601224}
   - component: {fileID: 134601223}
   - component: {fileID: 134601222}
+  - component: {fileID: 134601225}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: GameManager
@@ -674,6 +705,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09398e4bdb0e06b45a07859a33bd852d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &134601225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134601219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c824b6317d64144f831c15189856012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSpawnPoint: {fileID: 93222371}
+  particles:
+  - {fileID: 100000, guid: 429ce588c39a9504cbaa00f90c3925ae, type: 3}
+  - {fileID: 100000, guid: 3c3b3736efff5f44c9d061b8e2563cb5, type: 3}
+  - {fileID: 100000, guid: 3647d4e9cd0148f4cbdcf0bd83fa82e4, type: 3}
+  - {fileID: 100000, guid: 5f6b78a6ddc904744a0f3cf237498a99, type: 3}
+  spawnDelaySeconds: 2
+  spawnXOffset: 7
+  spawnYOffset: 2
+  spawnZOffset: 5
 --- !u!1 &271774206
 GameObject:
   m_ObjectHideFlags: 0
