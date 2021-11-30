@@ -104,6 +104,18 @@ TextureImporter:
   - first:
       213: 21300066
     second: arrow_right1
+  - first:
+      213: -997972493423046422
+    second: Plus Button
+  - first:
+      213: -199644854353079308
+    second: Normal Speed Button
+  - first:
+      213: -217455086581007235
+    second: Double Speed Button
+  - first:
+      213: 4335250483284255847
+    second: Minus Button
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -373,7 +385,7 @@ TextureImporter:
       name: pause
       rect:
         serializedVersion: 2
-        x: 2071
+        x: 2065
         y: 2528
         width: 489
         height: 485
@@ -416,7 +428,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3237
-        y: 2528
+        y: 2534
         width: 472
         height: 476
       alignment: 0
@@ -852,10 +864,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Plus Button
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 1348
+        width: 985
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae098e10e4d7622f0800000000000000
+      internalID: -997972493423046422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal Speed Button
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 149
+        width: 985
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3dc0f0018ba3df0800000000000000
+      internalID: -199644854353079308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double Speed Button
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 133
+        width: 985
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cbcb930c17bfcf0800000000000000
+      internalID: -217455086581007235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minus Button
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 140
+        width: 985
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764af7c6857e92c30800000000000000
+      internalID: 4335250483284255847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ac073d9bb1cf7a54584aa474db5c7542
     internalID: 0
     vertices: []
     indices: 

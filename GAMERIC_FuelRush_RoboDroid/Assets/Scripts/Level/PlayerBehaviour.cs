@@ -51,7 +51,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, targetPos);
 
-        if (distance < 0.05)
+        if (distance < 0.1)
         {
             anim.SetBool("IsSprinting", false);
             transform.position = new Vector3(Mathf.Round(transform.position.x)
@@ -64,7 +64,10 @@ public class PlayerBehaviour : MonoBehaviour
         {
             anim.SetBool("IsSprinting", true);
             transform.rotation = Quaternion.LookRotation(direction);
-            transform.Translate(direction * Time.deltaTime * moveSpeed, Space.World);
+            transform.Translate(
+                direction * Time.deltaTime * moveSpeed
+                * AnimSpeedMenuManager.animSpeedMultiplier
+                , Space.World);
         }
     }
 

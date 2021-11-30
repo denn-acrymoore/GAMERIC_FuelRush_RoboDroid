@@ -34,7 +34,7 @@ public class RockBehaviour : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, targetPos);
 
-        if (distance < 0.05)
+        if (distance < 0.1)
         {
             isRockMoving = false;
             CustomGridManager.isObjectMoving = false;
@@ -42,7 +42,8 @@ public class RockBehaviour : MonoBehaviour
         else
         {
             Vector3 direction = (targetPos - transform.position).normalized;
-            transform.Translate(direction * Time.deltaTime * moveSpeed, Space.World);
+            transform.Translate(direction * Time.deltaTime * moveSpeed
+                * AnimSpeedMenuManager.animSpeedMultiplier, Space.World);
         }
     }
 }
